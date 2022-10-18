@@ -1,11 +1,22 @@
+import React from 'react';
+import HeadlineCards from './components/HeadlineCards';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Food from './components/Food'
+import Category from './components/Category';
 
-import './App.css';
-import Post from './components/Post';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-     <Post/>
+   <div>
+ <Navbar />
+ <Hero />
+ <HeadlineCards />
+ <Food />
+ <Category />
     </div>
   );
 }
